@@ -1,0 +1,76 @@
+.main {
+  text-align: center;
+}
+
+.main-modal {
+  width: 50%;
+  height: 65%;
+  overflow: hidden;
+}
+
+.clsViewer {
+  margin-top: 20px;
+}
+
+.modal-image {
+  position: relative;
+  width: 45%;
+  height: 45vh;
+}
+
+.main-component {
+  width: 90%;
+  height: 70vh;
+  outline-color: black;
+  background-color: blanchedalmond;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: scroll;
+}
+
+.modal-img {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.navBtn {
+  height: 30%;
+  width: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.item {
+  width: 25%;
+  margin: 5px;
+}
+
+.searchBtn {
+  width: 10%;
+}
+
+.mydiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 7%;
+  box-shadow: 1px 1px 5px grey;
+  padding: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.gallary {
+  height: 75vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  overflow: scroll;
+  scrollbar-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
